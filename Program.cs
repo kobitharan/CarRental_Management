@@ -26,9 +26,12 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
-  app.MapControllerRoute(
-                name: "areas",
-                pattern: "{area:exists}/{controller=Dashboard}/{action=AddCar}/{id?}");
+app.MapControllerRoute(
+              name: "areas",
+              pattern: "{area:exists}/{controller=Car}/{action=AddCar}/{id?}");
+//app.MapControllerRoute(
+//               name: "Areas",
+//               pattern: "{area:exists}/{controller=}/{action=AddCar}/{id?}");
 
 app.MapControllerRoute(
     name: "default",

@@ -13,7 +13,7 @@ namespace Car_Rental_Management_System.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
+        public IActionResult AddCara()
         {
             return View();
         }

@@ -1,132 +1,32 @@
-﻿@{
-    Layout = null;
-}
-
+﻿@*
+    Simple Admin Layout
+    இதுல உங்க Admin menus, CSS/JS links, header/footer எல்லாம் சேர்க்கலாம்.
+*@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewData["Title"] - Admin</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
-    <style>
-        body {
-            display: flex;
-            min-height: 100vh;
-        }
-        .sidebar {
-            width: 220px;
-            background-color: #343a40;
-            color: white;
-            padding-top: 20px;
-        }
-        .sidebar a {
-            color: white;
-            display: block;
-            padding: 10px 20px;
-            text-decoration: none;
-        }
-        .sidebar a:hover {
-            background-color: #495057;
-        }
-        .main-content {
-            flex-grow: 1;
-            padding: 20px;
-        }
-        .navbar {
-            background-color: #212529;
-            color: white;
-        }
-    </style>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
 </head>
 <body>
-    <!-- Sidebar -->
-    <div class="sidebar d-flex flex-column">
-        <div class="fs-5 fw-bold text-center mb-4">Admin Panel</div>
-        <a asp-area="Admin" asp-controller="Dashboard" asp-action="Index">Dashboard</a>
-        <a asp-area="Admin" asp-controller="User" asp-action="Index">Users</a>
-        <a asp-controller="Home" asp-action="Index">Go to Website</a>
-        <a asp-area="Admin" asp-controller="Account" asp-action="Logout">Logout</a>
-    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 
-    <!-- Main Content -->
-    <div class="main-content w-100">
-        <nav class="navbar px-3 mb-4">
-            <span class="navbar-brand mb-0 h5">Admin - @ViewData["Title"]</span>
-        </nav>
-
-        <div class="container-fluid">
-            @RenderBody()
+        <a class="navbar-brand" href="/Admin/Dashboard">Admin Panel</a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="nav-link" href="/Admin/Car/AddCar">Add Car</a></li>
+                <li class="nav-item"><a class="nav-link" href="/Admin/Car/CarList">Car List</a></li>
+            </ul>
         </div>
+    </nav>
+
+    <div class="container mt-4">
+        @RenderBody()
     </div>
 
-    @RenderSection("Scripts", required: false)
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
-@{
-    Layout = null;
-}
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8" />
-    <title>@ViewData["Title"] - Admin</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
-    <style>
-        body {
-            display: flex;
-            min-height: 100vh;
-        }
-        .sidebar {
-            width: 220px;
-            background-color: #343a40;
-            color: white;
-            padding-top: 20px;
-        }
-        .sidebar a {
-            color: white;
-            display: block;
-            padding: 10px 20px;
-            text-decoration: none;
-        }
-        .sidebar a:hover {
-            background-color: #495057;
-        }
-        .main-content {
-            flex-grow: 1;
-            padding: 20px;
-        }
-        .navbar {
-            background-color: #212529;
-            color: white;
-        }
-    </style>
-</head>
-<body>
-    <!-- Sidebar -->
-    <div class="sidebar d-flex flex-column">
-        <div class="fs-5 fw-bold text-center mb-4">Admin Panel</div>
-       @*  <a asp-area="Admin" asp-controller="Dashboard" asp-action="Index">Dashboard</a>
-        <a asp-area="Admin" asp-controller="User" asp-action="Index">Users</a>
-        <a asp-controller="Home" asp-action="Index">Go to Website</a>
-        <a asp-area="Admin" asp-controller="Account" asp-action="Logout">Logout</a> *@
-    </div>
-
-    <!-- Main Content -->
-    <div class="main-content w-100">
-        <nav class="navbar px-3 mb-4">
-            <span class="navbar-brand mb-0 h5">Admin - @ViewData["Title"]</span>
-        </nav>
-
-        <div class="container-fluid">
-            @RenderBody()
-        </div>
-    </div>
-
-    @RenderSection("Scripts", required: false)
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
