@@ -9,7 +9,9 @@
       "Car_Rental_Management_System/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.7",
-          "Microsoft.EntityFrameworkCore.Tools": "9.0.7"
+          "Microsoft.EntityFrameworkCore.Tools": "9.0.7",
+          "Westwind.AspNetCore.LiveReload": "0.5.2",
+          "Xamarin.HotReload": "2.0.16"
         },
         "runtime": {
           "Car_Rental_Management_System.dll": {}
@@ -1036,6 +1038,42 @@
             "fileVersion": "6.0.21.52210"
           }
         }
+      },
+      "Westwind.AspNetCore.LiveReload/0.5.2": {
+        "runtime": {
+          "lib/net8.0/Westwind.AspNetCore.LiveReload.dll": {
+            "assemblyVersion": "0.5.2.0",
+            "fileVersion": "0.5.2.0"
+          }
+        }
+      },
+      "Xamarin.Forms/3.0.0.446417": {
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.Core.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          },
+          "lib/netstandard2.0/Xamarin.Forms.Platform.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/netstandard2.0/Xamarin.Forms.Xaml.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Xamarin.HotReload/2.0.16": {
+        "dependencies": {
+          "Microsoft.CodeAnalysis.CSharp": "4.8.0",
+          "Xamarin.Forms": "3.0.0.446417"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.HotReload.Reloader.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -1597,6 +1635,27 @@
       "sha512": "sha512-IXoJOXIqc39AIe+CIR7koBtRGMiCt/LPM3lI+PELtDIy9XdyeSrwXFdWV9dzJ2Awl0paLWUaknLxFQ5HpHZUog==",
       "path": "system.windows.extensions/6.0.0",
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
+    },
+    "Westwind.AspNetCore.LiveReload/0.5.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-G2asxO3JCzfrXai6sm5VZNtbsReU908/nj6tv/+xQzBhY2LYHS+OdSG7dbaW0j91cd2Dd6OpnUGCXpSygzwq5w==",
+      "path": "westwind.aspnetcore.livereload/0.5.2",
+      "hashPath": "westwind.aspnetcore.livereload.0.5.2.nupkg.sha512"
+    },
+    "Xamarin.Forms/3.0.0.446417": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9Q6dING0FdSiOlsWUdNUzNiZgEljZ7rez5rn3+77+h0hfaFjSyV0tZQ1y2u2pXzRqgWNjDH3rrcCSoKgkMIxzA==",
+      "path": "xamarin.forms/3.0.0.446417",
+      "hashPath": "xamarin.forms.3.0.0.446417.nupkg.sha512"
+    },
+    "Xamarin.HotReload/2.0.16": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LSs0BSYye5pdgx6wfaTnbvrCHmj2tcfG1hSy0w4JYpWDLSx0xFeOxt3st7iVvm/7CU76elyksnuMV0nl9Dj7Cw==",
+      "path": "xamarin.hotreload/2.0.16",
+      "hashPath": "xamarin.hotreload.2.0.16.nupkg.sha512"
     }
   }
 }
