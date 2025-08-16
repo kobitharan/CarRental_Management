@@ -3,9 +3,10 @@ using Car_Rental_Management_System.Data;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
-namespace Car_Rental_Management_System.Areas.Admin.Controllers // ✅ spelling fix
+
+namespace Car_Rental_Management_System.Areas.Admin.Controllers
 {
-    [Area("Admin")] // ✅ Important for routing
+    [Area("Admin")]
     public class CarController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -15,19 +16,23 @@ namespace Car_Rental_Management_System.Areas.Admin.Controllers // ✅ spelling f
             _context = context;
         }
 
-        // GET: Admin/Car/AddCar
         [HttpGet]
         public IActionResult AddCar()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult AddCar(CarViewModels model)
+        {
+            return View();
+        }
+
+        public IActionResult CarsList()
         {
            
             return View();
         }
-
-        // POST: Admin/Car/AddCar
-       
-      
-
-        // GET: Admin/Car/CarList
-       
     }
 }
