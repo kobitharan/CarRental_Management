@@ -1,31 +1,72 @@
-﻿@*
-    Simple Admin Layout
-    இதுல உங்க Admin menus, CSS/JS links, header/footer எல்லாம் சேர்க்கலாம்.
-*@
+﻿
+@{
+    Layout = null;
+}
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - Admin</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <style>
+        body {
+            display: flex;
+        }
+
+        .sidebar {
+            width: 220px;
+            height: 100vh;
+            background: #343a40;
+            padding: 20px 10px;
+            color: #fff;
+        }
+
+            .sidebar a {
+                display: block;
+                color: #ddd;
+                text-decoration: none;
+                padding: 10px;
+                border-radius: 6px;
+                margin-bottom: 5px;
+            }
+
+                .sidebar a:hover {
+                    background: #495057;
+                    color: #fff;
+                }
+
+        .content {
+            flex-grow: 1;
+            padding: 20px;
+        }
+    </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <!-- Sidebar -->
+    <div class="sidebar  d-flex flex-column">
+        <div class="fs-5 fw-bold text-center mb-4">Admin Panel</div>
+        @* <a asp-area="Admin" asp-controller="Dashboard" asp-action="Index">📊 Dashboard</a> *@
+        <a asp-area="Admin" asp-controller="Car" asp-action="AddCar">🚗 Add Car</a>
+        <a asp-area="Admin" asp-controller="Car" asp-action="CarList">📋 Car List</a>
+        <a asp-area="Admin" asp-controller="Car" asp-action="Homedetals">👥 Users</a>
 
-        <a class="navbar-brand" href="/Admin/Dashboard">Admin Panel</a>
-        <div class="collapse navbar-collapse">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item"><a class="nav-link" href="/Admin/Car/AddCar">Add Car</a></li>
-                <li class="nav-item"><a class="nav-link" href="/Admin/Car/CarList">Car List</a></li>
-            </ul>
-        </div>
-    </nav>
 
-    <div class="container mt-4">
-        @RenderBody()
+        <a asp-controller="Home" asp-action="Index">🌐 Go to Website</a>
+        <a asp-area="Admin" asp-controller="Account" asp-action="Logout">🚪 Logout</a>
     </div>
 
+    <!-- Main Content -->
+    <div class="content">
+       
+
+        <div class="container-fluid">
+            @RenderBody()
+        </div>
+    </div>
+       @* @RenderSection("Scripts", required: false) *@
+    <!-- JS -->
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>

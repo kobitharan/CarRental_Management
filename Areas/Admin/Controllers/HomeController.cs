@@ -4,9 +4,12 @@ namespace Car_Rental_Management_System.Areas.Admin.Controllers
 {
     public class HomeController : Controller
     {
-        public IActionResult Index()
+        [HttpGet]
+        public IActionResult Homedetals()
         {
             return View();
         }
+
+       
     }
 }
