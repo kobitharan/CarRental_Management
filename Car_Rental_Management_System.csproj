@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <Folder Include="Areas\Admin\DTOs\" />
+    <Folder Include="Areas\Admin\Views\Home\" />
     <Folder Include="Areas\Customer\Controlers\" />
     <Folder Include="Areas\Customer\DTOs\" />
     <Folder Include="Areas\Customer\ViewModels\" />

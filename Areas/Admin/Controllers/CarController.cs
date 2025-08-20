@@ -15,9 +15,8 @@ namespace Car_Rental_Management_System.Areas.Admin.Controllers
         {
             _context = context;
         }
-
         [HttpGet]
-        public IActionResult AddCar()
+        public IActionResult AddCar( )
         {
             return View();
         }
@@ -30,9 +29,11 @@ namespace Car_Rental_Management_System.Areas.Admin.Controllers
         }
         public IActionResult CarList()
         {
-
             return View();
         }
+
+     
+      
 
         [HttpGet]
         public IActionResult Homedetals()
@@ -40,5 +41,12 @@ namespace Car_Rental_Management_System.Areas.Admin.Controllers
             return View();
         }
 
+        public IActionResult CarsList()
+        {
+           
+            return View();
+        }
+      
+       
     }
 }

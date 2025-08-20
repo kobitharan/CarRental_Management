@@ -40,8 +40,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2FyXENhckxpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kobi/Desktop/8 115/CarRental_Management/Areas/Admin/Views/home/Home.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcaG9tZVxIb21lLmNzaHRtbA==
+[C:/Users/kobi/Desktop/8 115/CarRental_Management/Areas/Admin/Views/Car/Homedetals.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2FyXEhvbWVkZXRhbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/kobi/Desktop/8 115/CarRental_Management/Areas/Customer/Controlers/Index.cshtml]
