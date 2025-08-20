@@ -13,6 +13,18 @@
         <input asp-for="Username" class="form-control" />
         <span asp-validation-for="Username" class="text-danger"></span>
     </div>
+    <div class="col-md-6">
+        <label class="form-label">Fuel Type</label>
+        <select class="form-select">
+            <option>Petrol</option>
+            <option>Diesel</option>
+            <option>Electric</option>
+        </select>
+    </div>
+    <div class="col-md-6">
+        <label class="form-label">Car  Image</label>
+        <input type="text" class="form-control" placeholder="Enter Image">
 
+    </div>
     <button type="submit" class="btn btn-success">Shhave</button>
 </form>

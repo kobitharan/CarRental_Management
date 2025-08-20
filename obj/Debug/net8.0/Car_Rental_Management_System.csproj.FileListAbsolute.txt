@@ -738,7 +738,6 @@ C:\Users\kobi\Desktop\8 115\CarRental_Management\obj\Debug\net8.0\refint\Car_Ren
 C:\Users\kobi\Desktop\8 115\CarRental_Management\obj\Debug\net8.0\Car_Rental_Management_System.pdb
 C:\Users\kobi\Desktop\8 115\CarRental_Management\obj\Debug\net8.0\Car_Rental_Management_System.genruntimeconfig.cache
 C:\Users\kobi\Desktop\8 115\CarRental_Management\obj\Debug\net8.0\ref\Car_Rental_Management_System.dll
-C:\Users\kobi\Desktop\8 115\CarRental_Management\bin\Debug\net8.0\Westwind.AspNetCore.LiveReload.dll
 C:\Users\kobi\Desktop\8 115\CarRental_Management\bin\Debug\net8.0\Xamarin.Forms.Core.dll
 C:\Users\kobi\Desktop\8 115\CarRental_Management\bin\Debug\net8.0\Xamarin.Forms.Platform.dll
 C:\Users\kobi\Desktop\8 115\CarRental_Management\bin\Debug\net8.0\Xamarin.Forms.Xaml.dll
