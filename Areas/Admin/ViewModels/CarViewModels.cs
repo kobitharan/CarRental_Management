@@ -73,5 +73,7 @@ namespace Car_Rental_Management_System.Areas.Admin.ViewModels
         [Required]
         public decimal TotalRevenue { get; set; }
         public List<Favourite>? Favourites { get; set; }
+
+
     }
 }

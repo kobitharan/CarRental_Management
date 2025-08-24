@@ -3,36 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\kobi\\Desktop\\8 115\\CarRental_Management\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B262ECE0-E2E9-4082-B758-F8CE14BDA09C}|Car_Rental_Management_System.csproj|c:\\users\\kobi\\desktop\\8 115\\carrental_management\\areas\\admin\\views\\car\\homedetals.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B262ECE0-E2E9-4082-B758-F8CE14BDA09C}|Car_Rental_Management_System.csproj|solutionrelative:areas\\admin\\views\\car\\homedetals.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B262ECE0-E2E9-4082-B758-F8CE14BDA09C}|Car_Rental_Management_System.csproj|c:\\users\\kobi\\desktop\\8 115\\carrental_management\\areas\\admin\\views\\car\\addcar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B262ECE0-E2E9-4082-B758-F8CE14BDA09C}|Car_Rental_Management_System.csproj|solutionrelative:areas\\admin\\views\\car\\addcar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B262ECE0-E2E9-4082-B758-F8CE14BDA09C}|Car_Rental_Management_System.csproj|c:\\users\\kobi\\desktop\\8 115\\carrental_management\\areas\\admin\\views\\car\\brand.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B262ECE0-E2E9-4082-B758-F8CE14BDA09C}|Car_Rental_Management_System.csproj|solutionrelative:areas\\admin\\views\\car\\brand.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B262ECE0-E2E9-4082-B758-F8CE14BDA09C}|Car_Rental_Management_System.csproj|c:\\users\\kobi\\desktop\\8 115\\carrental_management\\areas\\admin\\controllers\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B262ECE0-E2E9-4082-B758-F8CE14BDA09C}|Car_Rental_Management_System.csproj|solutionrelative:areas\\admin\\controllers\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B262ECE0-E2E9-4082-B758-F8CE14BDA09C}|Car_Rental_Management_System.csproj|c:\\users\\kobi\\desktop\\8 115\\carrental_management\\areas\\admin\\views\\car\\carlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B262ECE0-E2E9-4082-B758-F8CE14BDA09C}|Car_Rental_Management_System.csproj|solutionrelative:areas\\admin\\views\\car\\carlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B262ECE0-E2E9-4082-B758-F8CE14BDA09C}|Car_Rental_Management_System.csproj|c:\\users\\kobi\\desktop\\8 115\\carrental_management\\views\\shared\\admin_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B262ECE0-E2E9-4082-B758-F8CE14BDA09C}|Car_Rental_Management_System.csproj|solutionrelative:views\\shared\\admin_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B262ECE0-E2E9-4082-B758-F8CE14BDA09C}|Car_Rental_Management_System.csproj|c:\\users\\kobi\\desktop\\8 115\\carrental_management\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B262ECE0-E2E9-4082-B758-F8CE14BDA09C}|Car_Rental_Management_System.csproj|solutionrelative:areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B262ECE0-E2E9-4082-B758-F8CE14BDA09C}|Car_Rental_Management_System.csproj|c:\\users\\kobi\\desktop\\8 115\\carrental_management\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B262ECE0-E2E9-4082-B758-F8CE14BDA09C}|Car_Rental_Management_System.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{B262ECE0-E2E9-4082-B758-F8CE14BDA09C}|Car_Rental_Management_System.csproj|c:\\users\\kobi\\desktop\\8 115\\carrental_management\\areas\\admin\\views\\car\\carlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B262ECE0-E2E9-4082-B758-F8CE14BDA09C}|Car_Rental_Management_System.csproj|solutionrelative:areas\\admin\\views\\car\\carlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B262ECE0-E2E9-4082-B758-F8CE14BDA09C}|Car_Rental_Management_System.csproj|c:\\users\\kobi\\desktop\\8 115\\carrental_management\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B262ECE0-E2E9-4082-B758-F8CE14BDA09C}|Car_Rental_Management_System.csproj|solutionrelative:areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B262ECE0-E2E9-4082-B758-F8CE14BDA09C}|Car_Rental_Management_System.csproj|c:\\users\\kobi\\desktop\\8 115\\carrental_management\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B262ECE0-E2E9-4082-B758-F8CE14BDA09C}|Car_Rental_Management_System.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B262ECE0-E2E9-4082-B758-F8CE14BDA09C}|Car_Rental_Management_System.csproj|c:\\users\\kobi\\desktop\\8 115\\carrental_management\\areas\\admin\\views\\car\\homedetals.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B262ECE0-E2E9-4082-B758-F8CE14BDA09C}|Car_Rental_Management_System.csproj|solutionrelative:areas\\admin\\views\\car\\homedetals.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B262ECE0-E2E9-4082-B758-F8CE14BDA09C}|Car_Rental_Management_System.csproj|c:\\users\\kobi\\desktop\\8 115\\carrental_management\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -58,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -82,33 +86,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Homedetals.cshtml",
-              "DocumentMoniker": "C:\\Users\\kobi\\Desktop\\8 115\\CarRental_Management\\Areas\\Admin\\Views\\Car\\Homedetals.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Car\\Homedetals.cshtml",
-              "ToolTip": "C:\\Users\\kobi\\Desktop\\8 115\\CarRental_Management\\Areas\\Admin\\Views\\Car\\Homedetals.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\Car\\Homedetals.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAjAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Brand.cshtml",
+              "DocumentMoniker": "C:\\Users\\kobi\\Desktop\\8 115\\CarRental_Management\\Areas\\Admin\\Views\\Car\\Brand.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Car\\Brand.cshtml",
+              "ToolTip": "C:\\Users\\kobi\\Desktop\\8 115\\CarRental_Management\\Areas\\Admin\\Views\\Car\\Brand.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Car\\Brand.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-20T17:46:47.867Z",
+              "WhenOpened": "2025-08-23T17:50:21.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AddCar.cshtml",
+              "DocumentMoniker": "C:\\Users\\kobi\\Desktop\\8 115\\CarRental_Management\\Areas\\Admin\\Views\\Car\\AddCar.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Car\\AddCar.cshtml",
+              "ToolTip": "C:\\Users\\kobi\\Desktop\\8 115\\CarRental_Management\\Areas\\Admin\\Views\\Car\\AddCar.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Car\\AddCar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-16T06:12:48.438Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\kobi\\Desktop\\8 115\\CarRental_Management\\Areas\\Admin\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\kobi\\Desktop\\8 115\\CarRental_Management\\Areas\\Admin\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Areas\\Admin\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-20T17:45:21.782Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "CarList.cshtml",
               "DocumentMoniker": "C:\\Users\\kobi\\Desktop\\8 115\\CarRental_Management\\Areas\\Admin\\Views\\Car\\CarList.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Car\\CarList.cshtml",
@@ -121,64 +125,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AddCar.cshtml",
-              "DocumentMoniker": "C:\\Users\\kobi\\Desktop\\8 115\\CarRental_Management\\Areas\\Admin\\Views\\Car\\AddCar.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Car\\AddCar.cshtml",
-              "ToolTip": "C:\\Users\\kobi\\Desktop\\8 115\\CarRental_Management\\Areas\\Admin\\Views\\Car\\AddCar.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\Car\\AddCar.cshtml",
-              "ViewState": "AgIAAF4AAAAAAAAAAAAswG4AAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-16T06:12:48.438Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Admin_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\kobi\\Desktop\\8 115\\CarRental_Management\\Views\\Shared\\Admin_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\Admin_Layout.cshtml",
-              "ToolTip": "C:\\Users\\kobi\\Desktop\\8 115\\CarRental_Management\\Views\\Shared\\Admin_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\Admin_Layout.cshtml",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAADQAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-16T06:20:47.465Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "CarController.cs",
               "DocumentMoniker": "C:\\Users\\kobi\\Desktop\\8 115\\CarRental_Management\\Areas\\Admin\\Controllers\\CarController.cs",
               "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\CarController.cs",
               "ToolTip": "C:\\Users\\kobi\\Desktop\\8 115\\CarRental_Management\\Areas\\Admin\\Controllers\\CarController.cs",
               "RelativeToolTip": "Areas\\Admin\\Controllers\\CarController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADgAAAAAAAAAAAAiwEgAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-20T19:39:49.752Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\kobi\\Desktop\\8 115\\CarRental_Management\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\kobi\\Desktop\\8 115\\CarRental_Management\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABoAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Admin_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\kobi\\Desktop\\8 115\\CarRental_Management\\Views\\Shared\\Admin_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Admin_Layout.cshtml",
+              "ToolTip": "C:\\Users\\kobi\\Desktop\\8 115\\CarRental_Management\\Views\\Shared\\Admin_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Admin_Layout.cshtml",
+              "ViewState": "AgIAABkAAAAAAAAAAAAcwDIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-16T06:45:48.617Z"
+              "WhenOpened": "2025-08-16T06:20:47.465Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\kobi\\Desktop\\8 115\\CarRental_Management\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\kobi\\Desktop\\8 115\\CarRental_Management\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T17:45:21.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\kobi\\Desktop\\8 115\\CarRental_Management\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\kobi\\Desktop\\8 115\\CarRental_Management\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAgwCcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAwCYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-16T04:51:35.718Z",
               "EditorCaption": ""
@@ -191,14 +183,37 @@
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\kobi\\Desktop\\8 115\\CarRental_Management\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-16T07:33:55.41Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-16T07:33:55.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Homedetals.cshtml",
+              "DocumentMoniker": "C:\\Users\\kobi\\Desktop\\8 115\\CarRental_Management\\Areas\\Admin\\Views\\Car\\Homedetals.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Car\\Homedetals.cshtml",
+              "ToolTip": "C:\\Users\\kobi\\Desktop\\8 115\\CarRental_Management\\Areas\\Admin\\Views\\Car\\Homedetals.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Car\\Homedetals.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-20T17:46:47.867Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\kobi\\Desktop\\8 115\\CarRental_Management\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\kobi\\Desktop\\8 115\\CarRental_Management\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-16T06:45:48.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\kobi\\Desktop\\8 115\\CarRental_Management\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -210,7 +225,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "ApplicationDbContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Users\\kobi\\Desktop\\8 115\\CarRental_Management\\Migrations\\ApplicationDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "Migrations\\ApplicationDbContextModelSnapshot.cs",
@@ -222,7 +237,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "favicon.ico - Icon [32x32, 32 bit, BMP]",
               "DocumentMoniker": "C:\\Users\\kobi\\Desktop\\8 115\\CarRental_Management\\wwwroot\\favicon.ico",
               "RelativeDocumentMoniker": "wwwroot\\favicon.ico",
