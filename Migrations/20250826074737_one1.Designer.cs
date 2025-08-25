@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Car_Rental_Management_System.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250806073252_1st")]
-    partial class _1st
+    [Migration("20250826074737_one1")]
+    partial class one1
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -60,22 +60,6 @@ namespace Car_Rental_Management_System.Migrations
                     b.ToTable("AdminUsers");
                 });
 
-            modelBuilder.Entity("Car_Rental_Management_System.Areas.Admin.Models.Brand", b =>
-                {
-                    b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasMaxLength(100)
-                        .HasColumnType("nvarchar(100)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Brand");
-                });
-
             modelBuilder.Entity("Car_Rental_Management_System.Areas.Admin.Models.CarImage", b =>
                 {
                     b.Property<Guid>("ImageId")
@@ -106,9 +90,6 @@ namespace Car_Rental_Management_System.Migrations
                     b.Property<string>("Action")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<Guid>("BrandId")
-                        .HasColumnType("uniqueidentifier");
-
                     b.Property<string>("FuelType")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -120,9 +101,6 @@ namespace Car_Rental_Management_System.Migrations
                     b.Property<string>("Mileage")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
-
-                    b.Property<Guid>("ModelId")
-                        .HasColumnType("uniqueidentifier");
 
                     b.Property<decimal>("OngoingRevenue")
                         .HasColumnType("decimal(18,2)");
@@ -154,32 +132,7 @@ namespace Car_Rental_Management_System.Migrations
 
                     b.HasKey("CarId");
 
-                    b.HasIndex("BrandId");
-
-                    b.HasIndex("ModelId");
-
                     b.ToTable("Car");
-                });
-
-            modelBuilder.Entity("Car_Rental_Management_System.Areas.Admin.Models.Model", b =>
-                {
-                    b.Property<Guid>("ModelId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<Guid>("BrandId")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasMaxLength(100)
-                        .HasColumnType("nvarchar(100)");
-
-                    b.HasKey("ModelId");
-
-                    b.HasIndex("BrandId");
-
-                    b.ToTable("Model");
                 });
 
             modelBuilder.Entity("Car_Rental_Management_System.Areas.Customer.Models.Address", b =>
@@ -586,36 +539,6 @@ namespace Car_Rental_Management_System.Migrations
                     b.Navigation("Car");
                 });
 
-            modelBuilder.Entity("Car_Rental_Management_System.Areas.Admin.Models.CarViewModels", b =>
-                {
-                    b.HasOne("Car_Rental_Management_System.Areas.Admin.Models.Brand", "Brand")
-                        .WithMany()
-                        .HasForeignKey("BrandId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("Car_Rental_Management_System.Areas.Admin.Models.Model", "Model")
-                        .WithMany()
-                        .HasForeignKey("ModelId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
-                    b.Navigation("Brand");
-
-                    b.Navigation("Model");
-                });
-
-            modelBuilder.Entity("Car_Rental_Management_System.Areas.Admin.Models.Model", b =>
-                {
-                    b.HasOne("Car_Rental_Management_System.Areas.Admin.Models.Brand", "Brand")
-                        .WithMany("Models")
-                        .HasForeignKey("BrandId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Brand");
-                });
-
             modelBuilder.Entity("Car_Rental_Management_System.Areas.Customer.Models.Address", b =>
                 {
                     b.HasOne("Car_Rental_Management_System.Areas.Customer.Models.CustomerUser", "CustomerUser")
@@ -741,11 +664,6 @@ namespace Car_Rental_Management_System.Migrations
                         .IsRequired();
 
                     b.Navigation("Employee");
-                });
-
-            modelBuilder.Entity("Car_Rental_Management_System.Areas.Admin.Models.Brand", b =>
-                {
-                    b.Navigation("Models");
                 });
 
             modelBuilder.Entity("Car_Rental_Management_System.Areas.Admin.Models.CarViewModels", b =>

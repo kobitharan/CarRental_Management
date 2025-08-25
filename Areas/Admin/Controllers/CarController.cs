@@ -21,27 +21,11 @@ namespace Car_Rental_Management_System.Areas.Admin.Controllers
         // GET
         public IActionResult AddCar()
         {
-            var model = new BrandViewModels();
+           
 
-            // Database-லிருந்து Brand-களை எடுக்க
-            var brands = _context.Brand.ToList();
+           
 
-            if (brands.Any()) // Data இருக்கா என்று check
-            {
-                model.Brands = brands
-                    .Select(b => new SelectListItem
-                    {
-                        Value = b.Id.ToString(), // Dropdown value = Brand Id
-                        Text = b.Name            // Dropdown text = Brand Name
-                    })
-                    .ToList();
-            }
-            else
-            {  // ethuu  maththaanum 
-                return View();
-            }
-
-            return View(model);
+            return View();
         }
 
 
