@@ -4920,24 +4920,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kobi\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\UT010036\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kobi\\Desktop\\8 115\\CarRental_Management\\Car_Rental_Management_System.csproj",
+      "projectUniqueName": "Z:\\Cars\\CarRental_Management\\Car_Rental_Management_System.csproj",
       "projectName": "Car_Rental_Management_System",
-      "projectPath": "C:\\Users\\kobi\\Desktop\\8 115\\CarRental_Management\\Car_Rental_Management_System.csproj",
-      "packagesPath": "C:\\Users\\kobi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kobi\\Desktop\\8 115\\CarRental_Management\\obj\\",
+      "projectPath": "Z:\\Cars\\CarRental_Management\\Car_Rental_Management_System.csproj",
+      "packagesPath": "C:\\Users\\UT010036\\.nuget\\packages\\",
+      "outputPath": "Z:\\Cars\\CarRental_Management\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\kobi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\UT010036\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4963,8 +4958,7 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.300"
+      }
     },
     "frameworks": {
       "net8.0": {
@@ -5004,7 +4998,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   },
@@ -5013,7 +5007,7 @@
       "code": "NU1603",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Xamarin.HotReload 2.0.16 depends on Xamarin.Forms (>= 3.0.0) but Xamarin.Forms 3.0.0 was not found. Xamarin.Forms 3.0.0.446417 was resolved instead.",
+      "message": "Xamarin.HotReload 2.0.16 depends on Xamarin.Forms (>= 3.0.0) but Xamarin.Forms 3.0.0 was not found. An approximate best match of Xamarin.Forms 3.0.0.446417 was resolved.",
       "libraryId": "Xamarin.Forms",
       "targetGraphs": [
         "net8.0"
