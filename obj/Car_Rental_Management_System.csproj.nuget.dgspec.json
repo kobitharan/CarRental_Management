@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "Z:\\Cars\\CarRental_Management\\Car_Rental_Management_System.csproj": {}
+    "Z:\\new Car\\CarRental_Management\\Car_Rental_Management_System.csproj": {}
   },
   "projects": {
-    "Z:\\Cars\\CarRental_Management\\Car_Rental_Management_System.csproj": {
+    "Z:\\new Car\\CarRental_Management\\Car_Rental_Management_System.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Z:\\Cars\\CarRental_Management\\Car_Rental_Management_System.csproj",
+        "projectUniqueName": "Z:\\new Car\\CarRental_Management\\Car_Rental_Management_System.csproj",
         "projectName": "Car_Rental_Management_System",
-        "projectPath": "Z:\\Cars\\CarRental_Management\\Car_Rental_Management_System.csproj",
+        "projectPath": "Z:\\new Car\\CarRental_Management\\Car_Rental_Management_System.csproj",
         "packagesPath": "C:\\Users\\UT010036\\.nuget\\packages\\",
-        "outputPath": "Z:\\Cars\\CarRental_Management\\obj\\",
+        "outputPath": "Z:\\new Car\\CarRental_Management\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\UT010036\\AppData\\Roaming\\NuGet\\NuGet.Config",
