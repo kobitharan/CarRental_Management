@@ -18,6 +18,7 @@ namespace Car_Rental_Management_System.Areas.Admin.Controllers
             _context = context;
         }
         [HttpGet]
+<<<<<<< HEAD
         // GET
         public IActionResult AddCar()
         {
@@ -35,6 +36,19 @@ namespace Car_Rental_Management_System.Areas.Admin.Controllers
         //{
         //    return View();
         //}
+=======
+        public IActionResult AddCar( )
+        {
+            return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult AddCar(CarViewModels model)
+        {
+            return View();
+        }
+>>>>>>> 197cd8da336c98442b73a522ba64e924e6ced4e0
         public IActionResult CarList()
         {
             return View();
@@ -54,11 +68,16 @@ namespace Car_Rental_Management_System.Areas.Admin.Controllers
            
             return View();
         }
+<<<<<<< HEAD
         [HttpGet]
         public IActionResult Brand()
         {
             return View();
         }
 
+=======
+      
+       
+>>>>>>> 197cd8da336c98442b73a522ba64e924e6ced4e0
     }
 }
