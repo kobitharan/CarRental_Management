@@ -42,17 +42,7 @@ namespace Car_Rental_Management_System.Areas.Admin.Models
         [Key]
         public Guid CarId { get; set; }
 
-        [Required]
-        [ForeignKey(nameof(Brand))]
-        public Guid BrandId { get; set; }
-       
-        public Brand Brand { get; set; }
 
-        
-        [ForeignKey(nameof(Model))]
-        public Guid ModelId { get; set; }
-
-        public Model Model { get; set; }
         [Required]
         public string RegNo { get; set; }
         [Required]

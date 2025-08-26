@@ -13,10 +13,10 @@ namespace Car_Rental_Management_System.Data
         }
 
         // Admin side
-        public DbSet<Brand> Brand { get; set; }
+      
         public DbSet<CarViewModels> Car { get; set; }
         public DbSet<CarImage> CarImage { get; set; }
-        public DbSet<Model> Model { get; set; }
+       
         public DbSet<AdminUsers> AdminUsers { get; set; }
 
         // Customer side
@@ -39,11 +39,7 @@ namespace Car_Rental_Management_System.Data
             base.OnModelCreating(modelBuilder);
 
             // Car - Model relationship
-            modelBuilder.Entity<CarViewModels>()
-                .HasOne(c => c.Model)
-                .WithMany()
-                .HasForeignKey(c => c.ModelId)
-                .OnDelete(DeleteBehavior.Restrict);
+          
 
             // Decimal precision for Car
             modelBuilder.Entity<CarViewModels>()
