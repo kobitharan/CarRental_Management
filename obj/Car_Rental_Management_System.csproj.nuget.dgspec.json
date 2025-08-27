@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "Z:\\new Car\\CarRental_Management\\Car_Rental_Management_System.csproj": {}
+    "Z:\\ongoing project\\CarRental_Management\\Car_Rental_Management_System.csproj": {}
   },
   "projects": {
-    "Z:\\new Car\\CarRental_Management\\Car_Rental_Management_System.csproj": {
+    "Z:\\ongoing project\\CarRental_Management\\Car_Rental_Management_System.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Z:\\new Car\\CarRental_Management\\Car_Rental_Management_System.csproj",
+        "projectUniqueName": "Z:\\ongoing project\\CarRental_Management\\Car_Rental_Management_System.csproj",
         "projectName": "Car_Rental_Management_System",
-        "projectPath": "Z:\\new Car\\CarRental_Management\\Car_Rental_Management_System.csproj",
-        "packagesPath": "C:\\Users\\UT010036\\.nuget\\packages\\",
-        "outputPath": "Z:\\new Car\\CarRental_Management\\obj\\",
+        "projectPath": "Z:\\ongoing project\\CarRental_Management\\Car_Rental_Management_System.csproj",
+        "packagesPath": "C:\\Users\\ut010043\\.nuget\\packages\\",
+        "outputPath": "Z:\\ongoing project\\CarRental_Management\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\UT010036\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ut010043\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -80,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
