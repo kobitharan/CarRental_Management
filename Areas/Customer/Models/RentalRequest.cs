@@ -64,7 +64,7 @@ namespace Car_Rental_Management_System.Areas.Customer.Models
         [Range(0, double.MaxValue)]
         public decimal OverDueAmount { get; set; }
 
-        public CarViewModels Car { get; set; }
+        public Car Car { get; set; }
         public CustomerUser CustomerUser { get; set; }
 
     }

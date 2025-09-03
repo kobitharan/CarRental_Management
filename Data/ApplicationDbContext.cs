@@ -14,7 +14,7 @@ namespace Car_Rental_Management_System.Data
 
         // Admin side
       
-        public DbSet<CarViewModels> Car { get; set; }
+        public DbSet<Car> Car { get; set; }
         public DbSet<CarImage> CarImage { get; set; }
        
         public DbSet<AdminUsers> AdminUsers { get; set; }
@@ -42,15 +42,15 @@ namespace Car_Rental_Management_System.Data
           
 
             // Decimal precision for Car
-            modelBuilder.Entity<CarViewModels>()
+            modelBuilder.Entity<Car>()
                 .Property(c => c.PricePerDay)
                 .HasColumnType("decimal(18,2)");
 
-            modelBuilder.Entity<CarViewModels>()
+            modelBuilder.Entity<Car>()
                 .Property(c => c.OngoingRevenue)
                 .HasColumnType("decimal(18,2)");
 
-            modelBuilder.Entity<CarViewModels>()
+            modelBuilder.Entity<Car>()
                 .Property(c => c.TotalRevenue)
                 .HasColumnType("decimal(18,2)");
 

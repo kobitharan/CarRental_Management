@@ -7,7 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Areas\Admin\DTOs\" />
+    <Folder Include="Areas\Admin\Repositories\Interfaces\" />
+    <Folder Include="Areas\Admin\Repositories\Implementations\" />
+    <Folder Include="Areas\Admin\Serves\" />
     <Folder Include="Areas\Admin\Views\Home\" />
     <Folder Include="Areas\Customer\Controlers\" />
     <Folder Include="Areas\Customer\DTOs\" />

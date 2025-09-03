@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Car_Rental_Management_System.Areas.Admin.Models
 {
-    public class CarViewModels
+    public class Car
     {
         //[Key]
         //public Guid CarId { get; set; }
@@ -44,26 +44,26 @@ namespace Car_Rental_Management_System.Areas.Admin.Models
 
 
         [Required]
-        public string RegNo { get; set; }
+        public required string RegNo { get; set; }
         [Required]
         public int Year { get; set; }
         [Required]
         public decimal PricePerDay { get; set; }
         [Required]
-        public string GearType { get; set; }
+        public required string GearType { get; set; }
         [Required]
-        public string FuelType { get; set; }
+        public required string FuelType { get; set; }
         [Required]
-        public string Mileage { get; set; }
+        public required string Mileage { get; set; }
         [Required]
-        public string SeatCount { get; set; }
+        public required string SeatCount { get; set; }
         [Required]
-        public string RentalCount { get; set; }
+        public required string RentalCount { get; set; }
        
-        public List<CarImage> Images { get; set; }
+        public required List<CarImage> Images { get; set; }
         public string? Action { get; set; }
         [Required]
-        public string Status { get; set; }
+        public required string Status { get; set; }
         [Required]
         public decimal OngoingRevenue { get; set; }
         [Required]

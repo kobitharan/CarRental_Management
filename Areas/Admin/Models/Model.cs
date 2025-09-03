@@ -16,7 +16,7 @@ namespace Car_Rental_Management_System.Areas.Admin.Models
 
     [Required]
     [MaxLength(100)]
-    public string Name { get; set; }
+    public  string Name { get; set; }
 
  
     [ForeignKey(nameof(Brand))]

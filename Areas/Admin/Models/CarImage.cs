@@ -18,7 +18,7 @@ namespace Car_Rental_Management_System.Areas.Admin.Models
 
         [Required]
         [MaxLength(255)]
-        public string ImagePath { get; set; }
+        public required string ImagePath { get; set; }
 
         [ForeignKey(nameof(CarId))]
 
@@ -26,6 +26,6 @@ namespace Car_Rental_Management_System.Areas.Admin.Models
         public Guid CarId { get; set; }
 
        
-        public CarViewModels Car { get; set; }
+        public required Car Car { get; set; }
     }
 }

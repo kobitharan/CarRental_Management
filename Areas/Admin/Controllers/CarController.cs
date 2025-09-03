@@ -25,9 +25,34 @@ namespace Car_Rental_Management_System.Areas.Admin.Controllers
 
             return View();
         }
+        [ValidateAntiForgeryToken]
+        [HttpPost]
+        public async Task<IActionResult> AddCar(CarViewModels car)
+        {
 
+            //if (!ModelState.IsValid)
+            //    return View(car);
+            //_context.Car.Add(car);
+            //_context.SaveChanges();
+            //var dto = new DTOs.CarDTO
+            //{
+            //    Year = car.Year,
+            //    RegNo = car.RegNo,
+            //    PricePerDay = car.PricePerDay,
+            //    GearType = car.GearType,
+            //    FuelType = car.FuelType,
+            //    Mileage = car.Mileage,
+            //    SeatCount = car.SeatCount,
+            //    RentalCount = "0",
+            //    Action = "Active",
+            //    Status = "Active",
+            //};
+            //TempData["Success"] = "Car added successfully!";
+            //  return RedirectToAction("Index");
+            return View();
+        }
 
-       public IActionResult CarList()
+        public IActionResult CarList()
         {
             return View();
         }

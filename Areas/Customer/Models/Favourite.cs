@@ -26,6 +26,6 @@ namespace Car_Rental_Management_System.Areas.Customer.Models
 
       
 
-        public CarViewModels Car { get; set; }
+        public Car Car { get; set; }
     }
 }
