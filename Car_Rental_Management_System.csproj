@@ -7,14 +7,19 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Areas\Customer\Views\NewFolder\**" />
+    <Content Remove="Areas\Customer\Views\NewFolder\**" />
+    <EmbeddedResource Remove="Areas\Customer\Views\NewFolder\**" />
+    <None Remove="Areas\Customer\Views\NewFolder\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Areas\Admin\Repositories\Interfaces\" />
     <Folder Include="Areas\Admin\Repositories\Implementations\" />
     <Folder Include="Areas\Admin\Serves\" />
     <Folder Include="Areas\Admin\Views\Home\" />
-    <Folder Include="Areas\Customer\Controlers\" />
     <Folder Include="Areas\Customer\DTOs\" />
     <Folder Include="Areas\Customer\ViewModels\" />
-    <Folder Include="Areas\Customer\Views\" />
     <Folder Include="Areas\Staff\Controlers\" />
     <Folder Include="Areas\Staff\DTOs\" />
     <Folder Include="Areas\Staff\ViewModels\" />
@@ -23,7 +28,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.7">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>

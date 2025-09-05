@@ -1,0 +1,78 @@
+﻿@model Car_Rental_Management_System.Models.UserRegisterViewModel
+
+
+@{
+    ViewData["Title"] = "Register";
+}
+
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-6 col-md-8">
+            <div class="card shadow-sm border-0 rounded-4 p-4">
+                <h2 class="text-center mb-4 fw-bold">Create an Account</h2>
+
+                <form asp-action="Register" method="post" novalidate>
+                    <div asp-validation-summary="ModelOnly" class="alert alert-danger visually-hidden" role="alert" aria-live="assertive"></div>
+
+                    <div class="row g-3">
+                        <div class="col-12 col-md-6">
+                            <label asp-for="UserName" class="form-label fw-semibold"></label>
+                            <input asp-for="UserName" class="form-control form-control-lg" placeholder="Username" aria-describedby="userNameHelp" />
+                            <span asp-validation-for="UserName" class="invalid-feedback d-block"></span>
+                        </div>
+
+                        <div class="col-12 col-md-6">
+                            <label asp-for="PhoneNumber" class="form-label fw-semibold"></label>
+                            <input asp-for="PhoneNumber" class="form-control form-control-lg" placeholder="Phone Number" />
+                            <span asp-validation-for="PhoneNumber" class="invalid-feedback d-block"></span>
+                        </div>
+
+                        <div class="col-12 col-md-6">
+                            <label asp-for="Password" class="form-label fw-semibold"></label>
+                            <input asp-for="Password" type="password" class="form-control form-control-lg" placeholder="Password" autocomplete="new-password" />
+                            <span asp-validation-for="Password" class="invalid-feedback d-block"></span>
+                        </div>
+
+                        <div class="col-12 col-md-6">
+                            <label asp-for="PasswordConfimed" class="form-label fw-semibold"></label>
+                            <input asp-for="PasswordConfimed" type="password" class="form-control form-control-lg" placeholder="Confirm Password" autocomplete="new-password" />
+                            <span asp-validation-for="PasswordConfimed" class="invalid-feedback d-block"></span>
+                        </div>
+
+                        <div class="col-12 col-md-6">
+                            <label asp-for="Email" class="form-label fw-semibold"></label>
+                            <input asp-for="Email" type="email" class="form-control form-control-lg" placeholder="Email" autocomplete="email" />
+                            <span asp-validation-for="Email" class="invalid-feedback d-block"></span>
+                        </div>
+
+                        <div class="col-12 col-md-6">
+                            <label asp-for="EmailConfirmed" class="form-label fw-semibold"></label>
+                            <input asp-for="EmailConfirmed" type="email" class="form-control form-control-lg" placeholder="Confirm Email" autocomplete="email" />
+                            <span asp-validation-for="EmailConfirmed" class="invalid-feedback d-block"></span>
+                        </div>
+
+<!--                        <div class="col-12 col-md-6">
+                            <label asp-for="SSN" class="form-label fw-semibold"></label>
+                            <input asp-for="SSN" class="form-control form-control-lg" placeholder="Social Security Number" />
+                            <span asp-validation-for="SSN" class="invalid-feedback d-block"></span>
+                        </div>
+-->
+                        <div class="col-12 col-md-6">
+                            <label asp-for="Address" class="form-label fw-semibold"></label>
+                            <input asp-for="Address" class="form-control form-control-lg" placeholder="Address" />
+                            <span asp-validation-for="Address" class="invalid-feedback d-block"></span>
+                        </div>
+                    </div>
+
+                    <div class="d-grid mt-4">
+                        <button type="submit" class="btn btn-primary btn-lg fw-semibold rounded-pill">Register</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+     @await Html.PartialAsync("_ValidationScriptsPartial");
+}
