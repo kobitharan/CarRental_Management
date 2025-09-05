@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\projects\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B262ECE0-E2E9-4082-B758-F8CE14BDA09C}|Car_Rental_Management_System.csproj|c:\\users\\admin\\desktop\\projects\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B262ECE0-E2E9-4082-B758-F8CE14BDA09C}|Car_Rental_Management_System.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B262ECE0-E2E9-4082-B758-F8CE14BDA09C}|Car_Rental_Management_System.csproj|c:\\users\\admin\\desktop\\projects\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B262ECE0-E2E9-4082-B758-F8CE14BDA09C}|Car_Rental_Management_System.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B262ECE0-E2E9-4082-B758-F8CE14BDA09C}|Car_Rental_Management_System.csproj|c:\\users\\admin\\desktop\\projects\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{B262ECE0-E2E9-4082-B758-F8CE14BDA09C}|Car_Rental_Management_System.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{B262ECE0-E2E9-4082-B758-F8CE14BDA09C}|Car_Rental_Management_System.csproj|c:\\users\\admin\\desktop\\projects\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B262ECE0-E2E9-4082-B758-F8CE14BDA09C}|Car_Rental_Management_System.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B262ECE0-E2E9-4082-B758-F8CE14BDA09C}|Car_Rental_Management_System.csproj|c:\\users\\admin\\desktop\\projects\\areas\\admin\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B262ECE0-E2E9-4082-B758-F8CE14BDA09C}|Car_Rental_Management_System.csproj|solutionrelative:areas\\admin\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B262ECE0-E2E9-4082-B758-F8CE14BDA09C}|Car_Rental_Management_System.csproj|c:\\users\\admin\\desktop\\projects\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B262ECE0-E2E9-4082-B758-F8CE14BDA09C}|Car_Rental_Management_System.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B262ECE0-E2E9-4082-B758-F8CE14BDA09C}|Car_Rental_Management_System.csproj|c:\\users\\admin\\desktop\\projects\\areas\\customer\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,10 +39,6 @@
       "RelativeMoniker": "D:0:0:{B262ECE0-E2E9-4082-B758-F8CE14BDA09C}|Car_Rental_Management_System.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B262ECE0-E2E9-4082-B758-F8CE14BDA09C}|Car_Rental_Management_System.csproj|c:\\users\\admin\\desktop\\projects\\areas\\admin\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B262ECE0-E2E9-4082-B758-F8CE14BDA09C}|Car_Rental_Management_System.csproj|solutionrelative:areas\\admin\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B262ECE0-E2E9-4082-B758-F8CE14BDA09C}|Car_Rental_Management_System.csproj|c:\\users\\admin\\desktop\\projects\\car_rental_management_system.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{B262ECE0-E2E9-4082-B758-F8CE14BDA09C}|Car_Rental_Management_System.csproj|solutionrelative:car_rental_management_system.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
@@ -49,10 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B262ECE0-E2E9-4082-B758-F8CE14BDA09C}|Car_Rental_Management_System.csproj|c:\\users\\admin\\desktop\\projects\\wwwroot\\css\\bootstrap-icons.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{B262ECE0-E2E9-4082-B758-F8CE14BDA09C}|Car_Rental_Management_System.csproj|solutionrelative:wwwroot\\css\\bootstrap-icons.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B262ECE0-E2E9-4082-B758-F8CE14BDA09C}|Car_Rental_Management_System.csproj|c:\\users\\admin\\desktop\\projects\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B262ECE0-E2E9-4082-B758-F8CE14BDA09C}|Car_Rental_Management_System.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B262ECE0-E2E9-4082-B758-F8CE14BDA09C}|Car_Rental_Management_System.csproj|c:\\users\\admin\\desktop\\projects\\wwwroot\\css\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -101,10 +101,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B262ECE0-E2E9-4082-B758-F8CE14BDA09C}|Car_Rental_Management_System.csproj|c:\\users\\admin\\desktop\\projects\\areas\\admin\\dtos\\cardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B262ECE0-E2E9-4082-B758-F8CE14BDA09C}|Car_Rental_Management_System.csproj|solutionrelative:areas\\admin\\dtos\\cardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B262ECE0-E2E9-4082-B758-F8CE14BDA09C}|Car_Rental_Management_System.csproj|c:\\users\\admin\\desktop\\projects\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{B262ECE0-E2E9-4082-B758-F8CE14BDA09C}|Car_Rental_Management_System.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B262ECE0-E2E9-4082-B758-F8CE14BDA09C}|Car_Rental_Management_System.csproj|c:\\users\\admin\\desktop\\projects\\views\\shared\\admin_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -183,24 +179,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": ".gitignore",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\projects\\.gitignore",
-              "RelativeDocumentMoniker": ".gitignore",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\projects\\.gitignore",
-              "RelativeToolTip": ".gitignore",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAPAAAAAAAAAA==",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAF8SURBVDhPjVNLTgJBEG1lwpoFB3GNK9fieA48hD8iwT/ihwgSDAIHgAGXXsEV18CNzL/LquqZdsYM6kteXqcy3fWqpmpNRBgOhyABBEgpAFVKPIMUcYzUyOU\u002BXM/b2qtU3vkSfRjjZTCAMAw1A2LwzdFoBPP5HNqdzuL27n4juibWI\u002BUshBA1DIkhEx9iEorFotgslQqGYbxxAGFEqt1MxmPWJLbLZdZ\u002Bv89q5PMFPiTR6z2zdaxR0fXA0XTBcVywkb4fwHXjRteecIDNQ7UmExVYAdPcxYaqclN46na5WenMKjtlVnTYwcXlVYaDqImW9beD5N/TeGy32QHXm6hZ03ZgiSQHp2fnWQ4oBmJqWSqwAqZpZjt4aLXAD4J0VqyZsmoubfB8H2r1eoaD6NXZ9HcHO\u002BSA3f4AjifXl8rItOETM8ckB9WTWpYD9RdeZ1PWVWAHWXPQaDb59f/w8LiqHeh1pvGkCaP6qB8yXusoxmuNZ7XmII4O9vGuEF86osuDYRkpYQAAAABJRU5ErkJggg==",
-              "WhenOpened": "2025-09-05T08:48:38.389Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\projects\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
@@ -213,7 +196,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\projects\\Views\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "Views\\Account\\Register.cshtml",
@@ -226,7 +209,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "UserRegisterViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\projects\\Models\\UserRegisterViewModel.cs",
               "RelativeDocumentMoniker": "Models\\UserRegisterViewModel.cs",
@@ -239,7 +222,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "RegisterController.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\projects\\Areas\\Customer\\Controllers\\RegisterController.cs",
               "RelativeDocumentMoniker": "Areas\\Customer\\Controllers\\RegisterController.cs",
@@ -252,7 +235,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\projects\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -265,7 +248,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Car_Rental_Management_System",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\projects\\Car_Rental_Management_System.csproj",
               "RelativeDocumentMoniker": "Car_Rental_Management_System.csproj",
@@ -290,19 +273,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 0,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\projects\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\projects\\wwwroot\\css\\site.css",
               "RelativeToolTip": "wwwroot\\css\\site.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-08-27T03:44:29.445Z"
+              "WhenOpened": "2025-08-27T03:44:29.445Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 28,
               "Title": "Customer_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\projects\\Views\\Shared\\Customer_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\Customer_Layout.cshtml",
@@ -327,12 +311,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\projects\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\projects\\Views\\Shared\\_Layout.cshtml*",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml*",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\projects\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAADEAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-08-26T09:05:17.742Z",
@@ -340,7 +324,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "AddCar.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\projects\\Areas\\Admin\\Views\\Car\\AddCar.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Car\\AddCar.cshtml",
@@ -378,7 +362,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "bootstrap-icons.css",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\projects\\wwwroot\\css\\bootstrap-icons.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\bootstrap-icons.css",
@@ -477,13 +461,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\projects\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\projects\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAowCYAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-08-26T09:35:08.942Z",
               "EditorCaption": ""
@@ -502,7 +486,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "bootstrap-icons.min.css",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\projects\\wwwroot\\css\\bootstrap-icons.min.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\bootstrap-icons.min.css",
@@ -515,7 +499,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 29,
               "Title": "Error.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\projects\\Views\\Shared\\Error.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
@@ -527,7 +511,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 30,
               "Title": "Staff_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\projects\\Views\\Shared\\Staff_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\Staff_Layout.cshtml",
@@ -539,7 +523,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 31,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\projects\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
@@ -551,20 +535,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\projects\\Areas\\Admin\\Views\\Login\\Login.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Login\\Login.cshtml",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\projects\\Areas\\Admin\\Views\\Login\\Login.cshtml",
               "RelativeToolTip": "Areas\\Admin\\Views\\Login\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-08-26T09:12:19.21Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 37,
               "Title": "20250826074142_one1.cs",
               "DocumentMoniker": "Z:\\Cars\\CarRental_Management\\Migrations\\20250826074142_one1.cs",
               "ToolTip": "Z:\\Cars\\CarRental_Management\\Migrations\\20250826074142_one1.cs",
@@ -574,7 +558,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 25,
               "Title": "Admin_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\projects\\Views\\Shared\\Admin_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\Admin_Layout.cshtml",
@@ -586,7 +570,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 26,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\projects\\Areas\\Admin\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\HomeController.cs",
@@ -598,7 +582,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 27,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\projects\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -610,7 +594,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 36,
               "Title": "20250826074556_one1.cs",
               "DocumentMoniker": "Z:\\Cars\\CarRental_Management\\Migrations\\20250826074556_one1.cs",
               "ToolTip": "Z:\\Cars\\CarRental_Management\\Migrations\\20250826074556_one1.cs",
@@ -620,7 +604,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 35,
               "Title": "20250826074737_one1.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\projects\\Migrations\\20250826074737_one1.cs",
               "RelativeDocumentMoniker": "Migrations\\20250826074737_one1.cs",
@@ -632,7 +616,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 33,
               "Title": "Program.cs",
               "DocumentMoniker": "Z:\\Cars\\CarRental_Management\\Program.cs",
               "ToolTip": "Z:\\Cars\\CarRental_Management\\Program.cs",
@@ -642,7 +626,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 32,
               "Title": "Brand.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\projects\\Areas\\Admin\\Views\\Car\\Brand.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Car\\Brand.cshtml",
@@ -654,7 +638,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 40,
               "Title": "Homedetals.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\projects\\Areas\\Admin\\Views\\Car\\Homedetals.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Car\\Homedetals.cshtml",
@@ -666,7 +650,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 34,
               "Title": "Home.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\projects\\Areas\\Admin\\Views\\Home\\Home.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Home\\Home.cshtml",
@@ -678,7 +662,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 39,
               "Title": "CarList.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\projects\\Areas\\Admin\\Views\\Car\\CarList.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Car\\CarList.cshtml",
@@ -690,7 +674,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 41,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\projects\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -702,7 +686,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 38,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\projects\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -714,7 +698,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 42,
               "Title": "favicon.ico",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\projects\\wwwroot\\favicon.ico",
               "RelativeDocumentMoniker": "wwwroot\\favicon.ico",

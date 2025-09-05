@@ -1,23 +1,50 @@
 html {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+    }
 }
 
 .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
 
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
 }
 
+/* Make card container relative and clip overflow */
+.card {
+    position: relative;
+    margin: 0.5rem;
+    /*   overflow: hidden; */
+}
+
+/* Image transition for smooth scaling */
+.card-img-top {
+    transition: transform 0.3s ease;
+    /* Optional: make sure the image fills the container */
+    width: 100%;
+    height: auto;
+}
+
+    /* Scale image slightly on hover */
+    .card-img-top:hover {
+        transform: scale(1.4); /* 15% bigger on hover */
+        z-index: 10; /* Keeps image on top */
+        cursor: pointer; /* shows it’s interactive */
+    }
+
+/* Optional: add a subtle box-shadow on hover for emphasis */
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    transition: box-shadow 0.3s ease;
+}
